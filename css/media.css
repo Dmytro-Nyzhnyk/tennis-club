@@ -1,0 +1,754 @@
+@media (max-width: 1350px) {
+  /* PAGE INDEX_TENNIS_CLUB */
+  /* section header */
+  .header {
+    overflow: hidden;
+  }
+
+  .header-top {
+    padding: 30px 10px 30px 10px;
+  }
+
+  .menu-list + .menu-list {
+    margin-left: 25px;
+  }
+
+  .header-middle {
+    margin-top: 100px;
+    padding-left: 10px;
+  }
+
+  .header-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding-left: 10px;
+  }
+
+  .header-bottom_container {
+    padding: 30px 10px 40px 35px;
+  }
+
+  .header-bottom_container:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  /* section header end */
+
+  /* section slider coach */
+  .slick-prev_one {
+    right: 79px;
+  }
+
+  .slick-next_one {
+    right: 19px;
+  }
+
+  .slider-coach_heading {
+    left: 10px;
+  }
+  /* section slider coach end */
+
+  /* section services */
+  .prices-title {
+    margin-left: 10px;
+  }
+  /* section services end */
+
+  /* PAGE INDEX_TENNIS_CLUB END */
+
+  /* PAGE GALLERY */
+  /* section header_gallery */
+
+  .header_gallery {
+    overflow: hidden;
+  }
+
+  .header_gallery-wrapper {
+    padding: 30px 10px 60px 10px;
+  }
+
+  .gallery_main-wrapper {
+    grid-template-columns: 416px 416px;
+    justify-content: center;
+  }
+  /* section header_gallery end */
+  /* PAGE GALLERY END */
+
+  /* PAGE ABOUT CLUB */
+  /* section header_about_club */
+
+  .header_gallery {
+    overflow: hidden;
+  }
+
+  .header_gallery-wrapper {
+    padding: 30px 10px 60px 10px;
+  }
+
+  .prices-title_services {
+    left: 19px;
+  }
+
+  /* section header_about_club end */
+
+  /* section slider_about_club */
+  .slick-prev {
+    right: 79px;
+  }
+
+  .slick-next {
+    right: 19px;
+  }
+
+  .slider_about_club_block-button {
+    bottom: 36%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+
+  .prices-about_club-heading {
+    left: 10px;
+  }
+  /* section slider_about_club end */
+
+  /* section club_description */
+
+  .club_description-heading {
+    margin-left: 10px;
+  }
+
+  .club_description-wrapper {
+    height: 1168px;
+  }
+
+  .club_description_wrapper-block {
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+
+  .club_description_wrapper_block_forimg {
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* section club_description end*/
+
+  /* section content */
+
+  .content-block {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .content-heading {
+    margin-left: 10px;
+  }
+
+  .content_list-wrapper {
+    width: initial;
+    margin-right: 0;
+  }
+  .content-text {
+    width: 100%;
+  }
+  /* section content end */
+
+  /* PAGE ABOUT CLUB END */
+}
+
+@media (max-width: 1150px) {
+  /* section photo */
+  .section-photo_wrapper {
+    flex-direction: column;
+  }
+
+  .section-photo_block {
+    margin-top: 30px;
+    margin: auto;
+  }
+
+  /* section photo end */
+
+  /*section photo 2 */
+  .section-photo_2-wrapper {
+    width: 636px;
+    height: 1116px;
+  }
+
+  .section-photo_2-img {
+    top: -300px;
+    margin: auto;
+  }
+
+  .section-photo_2-block {
+    bottom: 0;
+  }
+  /* section photo 2 end */
+
+  /* section slider coach */
+
+  .slick-prev_one {
+    top: 0;
+    right: 70px;
+  }
+
+  .slick-next_one {
+    top: 0;
+    right: 10px;
+  }
+  /* section slider coach end */
+
+  /* section services */
+  .information-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prices {
+    margin: auto;
+    width: 636px;
+  }
+
+  .prices-title {
+    text-align: center;
+  }
+
+  .prices_list {
+    width: 636px;
+    background-color: #8d86c9;
+  }
+
+  .services {
+    margin: auto;
+    margin-top: 80px;
+  }
+  /* section services end */
+
+  /* section footer */
+
+  .footer_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .footer_social_icons {
+    margin-top: 38px;
+    margin-bottom: 20px;
+  }
+
+  /* section footer end */
+}
+
+@media (max-width: 980px) {
+  /* section header */
+  .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+  .nav.open {
+    overflow: visible;
+  }
+  .menu {
+    background-color: #8d86c9;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    right: 0;
+    height: 100vh;
+    z-index: 5;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    color: #ffffff;
+  }
+
+  .menu.active {
+    left: 0%;
+  }
+
+  .menu-list + .menu-list {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .icon-header_display-none {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+  /* section header end */
+
+  /* PAGE GALLERY */
+  /* section gallery_main */
+
+  .gallery_main-wrapper {
+    grid-template-columns: 416px;
+    justify-content: center;
+  }
+  /* section gallery_main end */
+  /* PAGE GALLERY END */
+
+  /* PAGE ABOUT CLUB */
+
+  /* section slider_about_club */
+  .slider_about_club {
+    margin-bottom: 80px;
+  }
+  /* section slider_about_club end */
+
+  /* section club_description */
+  .club_description-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .club_description_wrapper-block {
+    position: static;
+    margin: auto;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    width: 100%;
+  }
+
+  .club_description_wrapper_block_forimg {
+    position: static;
+    margin: auto;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+  }
+
+  .club_description-wrapper {
+    height: initial;
+  }
+
+  .club_description_wrapper-block {
+    height: initial;
+    padding-bottom: 70px;
+    padding-left: 120px;
+  }
+
+  .club_description_wrapper_block-heading {
+    width: 100%;
+    padding-right: 60px;
+  }
+
+  .club_description_wrapper_block-text {
+    width: 100%;
+    padding-right: 60px;
+  }
+
+  .club_description_wrapper_block-numbers {
+    width: 100%;
+    padding-right: 50px;
+  }
+
+  .section-photo_2 {
+    margin-bottom: 80px;
+  }
+
+  /* section club_description end*/
+  /* PAGE ABOUT CLUB END */
+}
+
+@media (max-width: 780px) {
+  /* section photo 2 */
+  .section-photo_2 {
+    padding: 0 10px 0 10px;
+  }
+  /* section photo 2 end */
+
+  /* section services */
+  .information {
+    padding: 0 10px 0 10px;
+  }
+  /* section services end */
+
+  /* section footer */
+  .footer_navigation_list_point:not(:last-child) {
+    margin-right: 20px;
+  }
+  /* section footer end */
+
+  /* PAGE ABOUT CLUB */
+  /* section club_description */
+  .club_description_wrapper_block-numbers {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .club_description_wrapper_block_numbers-part1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .club_description_wrapper_block_numbers-part2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .club_description_wrapper_block_numbers-part3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* section club_description end*/
+
+  /* section content */
+
+  .content-block {
+    flex-direction: column;
+  }
+
+  .content-text {
+    margin-top: 50px;
+  }
+
+  /* section content end*/
+
+  /* PAGE ABOUT CLUB END */
+}
+
+@media (max-width: 650px) {
+  /* section header */
+  .header-bottom_container {
+    padding: 10px 10px 20px 35px;
+  }
+  /* section header end */
+
+  /* section photo 2 */
+  .section-photo_2-wrapper {
+    width: 100%;
+  }
+  .section-photo_2-block {
+    width: 100%;
+  }
+
+  .section-photo_2-block-wrapper {
+    margin: 70px auto;
+  }
+
+  /* section photo 2 end */
+
+  /* section slider coach */
+  .sliders {
+    margin-top: 0px;
+  }
+
+  .section_photo2-coach-profile {
+    margin-right: 0;
+  }
+
+  .slider-coach_heading {
+    position: static;
+    text-align: center;
+  }
+  /* section slider coach end*/
+
+  /* section services */
+  .prices {
+    margin: auto;
+    width: 100%;
+  }
+
+  .prices_list {
+    width: 100%;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .prices-title_services {
+    position: static;
+    text-align: center;
+  }
+
+  .sliders-services_wrapper {
+    margin-top: 72px;
+  }
+  /* section services end*/
+
+  /* section footer */
+  .footer_navigation_list_point:not(:last-child) {
+    margin-right: 10px;
+  }
+  /* section footer end */
+
+  /* PAGE ABOUT CLUB */
+  /* section slider_about_club */
+  .slider_about_club_block-button {
+    bottom: 32%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* section slider_about_club end */
+  /* PAGE ABOUT CLUB END */
+}
+
+@media (max-width: 590px) {
+  /* section header  */
+  .header-middle-title {
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .play-block-container {
+    margin: auto;
+    margin-top: 60px;
+  }
+
+  .header-bottom_container:not(:last-child) {
+    margin-right: auto;
+  }
+
+  .header-bottom_container {
+    margin: auto;
+  }
+  /* section header end */
+
+  /* section photo */
+  .section-photo {
+    margin: 50px 0 50px 0;
+  }
+  /* section photo end*/
+
+  /* section photo 2 */
+  .section-photo_2 {
+    margin-bottom: 50px;
+  }
+
+  /* section photo 2 */
+  .section-photo_2-wrapper {
+    flex-direction: column;
+    height: auto;
+    position: static;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+  }
+
+  .section-photo_2-img {
+    position: static;
+    margin: 0;
+  }
+
+  .section-photo_2-block-wrapper {
+    margin: 30px auto;
+  }
+
+  .section-photo_2-block {
+    position: static;
+    height: auto;
+  }
+  /* section photo 2 end */
+
+  /* section slider coach */
+
+  .slider-coach {
+    margin-bottom: 50px;
+  }
+  /* section slider coach end */
+
+  /* section services */
+  .information {
+    margin-bottom: 50px;
+  }
+
+  /* section services end */
+
+  /* section footer */
+  .footer_navigation_list_point:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .footer_navigation_list {
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0;
+  }
+  /* section footer end */
+
+  /* PAGE ABOUT CLUB */
+  /* section slider_about_club */
+
+  .slider_about_club-block {
+    margin-top: 50px;
+  }
+  .slider_about_club_block-button {
+    bottom: 30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .prices-about_club-heading {
+    position: static;
+    text-align: center;
+  }
+
+  .btn-slider {
+    display: none;
+  }
+  /* section slider_about_club end */
+
+  /* section club_description */
+  .club_description_wrapper-block {
+    padding-left: 30px;
+  }
+
+  .club_description-heading {
+    text-align: center;
+  }
+  /* section club_description end*/
+
+  /* PAGE ABOUT CLUB END */
+}
+
+@media (max-width: 450px) {
+  /* section header */
+  .header-middle {
+    padding-left: 0px;
+  }
+
+  .header-bottom {
+    padding-left: 0px;
+  }
+  /* section header end */
+
+  /* section photo 2 */
+  .section-photo_2-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-photo_2-block-wrapper {
+    padding: 0 10px;
+  }
+
+  .section-photo_2-block-heading {
+    font-size: 30px;
+  }
+
+  .section-photo_2-block-text {
+    margin-top: 15px;
+  }
+
+  .section-photo_2-block-title2 {
+    margin-top: 15px;
+  }
+
+  .section-photo_2-block-text2 {
+    margin-top: 10px;
+  }
+
+  .section-photo_2-block-row:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  /* section photo 2 end */
+
+  /* section slider coach */
+  .slider-coach_heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  /* section slider coach end */
+
+  /* section services */
+  .prices-title {
+    font-size: 30px;
+  }
+
+  .prices_list-title {
+    font-size: 16px;
+  }
+
+  .sliders-services_wrapper {
+    margin-top: 40px;
+  }
+
+  .information {
+    margin-bottom: 0px;
+  }
+
+  .services {
+    height: 360px;
+    margin-top: 100px;
+  }
+
+  .prices-title_services {
+    font-size: 30px;
+  }
+  /* section services end */
+
+  /* PAGE GALLERY */
+  /* section header_gallery */
+
+  .gallery_main-wrapper {
+    grid-template-columns: 310px;
+    justify-content: center;
+  }
+
+  .gallery_main-block {
+    width: 310px;
+    padding: 30px 10px 30px 10px;
+  }
+
+  .gallery_main_block-text {
+    width: 100%;
+  }
+  /* section header_gallery end */
+  /* PAGE GALLERY END */
+
+  /* PAGE ABOUT CLUB */
+  /* section slider_about_club */
+  .slider_about_club_block-button {
+    bottom: 23%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* section slider_about_club end */
+  /* PAGE ABOUT CLUB END */
+}
