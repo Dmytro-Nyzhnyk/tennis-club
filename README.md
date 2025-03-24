@@ -18,7 +18,6 @@ The "Kyiv Tennis Club" project is a website created to present and promote the a
 
 ## How to run:
 Clone the repository:
-   ```bash
    git clone https://github.com/your-username/kyiv-tennis-club.git
    
 Install dependencies: Note that this project doesn't have a backend, so you can simply open the HTML file in your browser.
@@ -36,4 +35,4 @@ Contacts: Contact details for getting in touch with the club.
 ## Authors:
 
 Navigation Menu
-Dmytro-Nyzhnyk
+Dmytro Nyzhnyk
